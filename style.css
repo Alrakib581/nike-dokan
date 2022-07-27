@@ -23,6 +23,32 @@
     font-family: 'Roboto',sans-serif;
     color: #3E3E3E ;
 }
+.heading-two{
+    font-size: 50px;
+    font-family: 'Bebas Neue',sans-serif;
+    color: #363958;
+}
+.casual-section{
+    background-color: #e5e5e5;
+}
+.card-container{
+    width: 370px;
+    height: 550px;
+}
+.card-img{
+    width: 311px;
+    height: 311px;
+   
+    
+}
+.img-container{
+    background-color: #e5e5e5;
+   
+}
+.card-heading{
+    font-size: 24px;
+    color: #363958;
+}
 @media only screen and  (max-width:440px) {
     .logo-img{
         width: 180px;
@@ -35,5 +61,12 @@
         font-size:50px;
         font-family: 'Bebas Neue',sans-serif;
     }
-    
+    .card-container{
+        width: 100%;
+        height: auto;
+    }
+    .card-img{
+        width: 100%;
+        width: auto;
+    }
 }
