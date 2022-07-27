@@ -1,0 +1,39 @@
+.logo-img{
+    width: 292px;
+    height: 40px;
+}
+.main-bg-color{
+    background-color: #FFF9F4;
+}
+.font-for-nav{
+    font-family: 'Bebas Neue',sans-serif;
+}
+.banner-section{
+    height: 600px;
+}
+.banner-img{
+    width: 450px;
+}
+.heading-size{
+    font-size: 80px;
+    font-family: 'Bebas Neue',sans-serif;
+}
+.common-p{
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    color: #3E3E3E ;
+}
+@media only screen and  (max-width:440px) {
+    .logo-img{
+        width: 180px;
+        
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .heading-size{
+        font-size:50px;
+        font-family: 'Bebas Neue',sans-serif;
+    }
+    
+}
